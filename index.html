@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carlos Silvestri</title>
+    <link rel="icon" type="image/jpg" href="img/Foto_mia.jpg" sizes="any">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@300;400;600;700&family=Open+Sans:wght@300;400;600;700&family=Oswald:wght@200;400;600;700&family=Raleway:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/fontawesome.min.css" integrity="sha512-8jdwayz5n8F2cnW26l9vpV6+yGOcRAqz6HTu+DQ3FtVIAts2gTdlFZOGpYhvBMXkWEgxPN3Y22UWyZXuDowNLA==" crossorigin="anonymous" />
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link src="css/icofont.min.css"></link>
+    <script src="css/venobox.css"></script>
+    <link rel="stylesheet" href="css/stilosiportafolio.css">
+    <link rel="stylesheet" href="css/prueba.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/swiperPersonalizado.css">
+
+
+
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <!-- PRELOADER-->
+    <div class="center circulo fixed z-index" id="circulo">
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+
+            <div class="spinner-layer spinner-red">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+
+            <div class="spinner-layer spinner-yellow">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+
+            <div class="spinner-layer spinner-green">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+        <p class="mi-portafolio oswald-bold">Mis Proyectos</p>
+    </div>
+    <!-- FIN DEL PRELOADER-->
+    <div class="hide" id="practicamente-todo">
+        <header>
+            <div class="contenedor">
+                <nav class="redes-en-el-header centrar">
+                    <a target="_blank" href="https://twitter.com/Silvestri_C"><i class="twitter fab fa-twitter"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100004958981799"><i class="facebook fab fa-facebook"></i></a>
+                    <a target="_blank" href="https://github.com/carlossilvestri?tab=repositories"><i class="github fab fa-github"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/carlos-silvestri-20b934117/">
+                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    </a>
+                </nav>
+                <div class="informacion-evento">
+                    <div class="clearfix informacion">
+                        <p class="fecha" id="fecha"><i class="naranja icono fa fa-calendar"></i> 10-12 AGOSTO</p>
+                        <p class="ciudad" id="ciudad"><i class="naranja icono  fa fa-map-marker"></i> ZULIA, VEN.</p>
+                    </div>
+                </div>
+                <!--Información evento-->
+                <a href="/">
+                    <h1 class="yop" id="apellido">Mis Proyectos</h2>
+                </a>
+                <div class="contenedor-texto">
+                    <h3 class="developer centrar"> <span class="centrar dancingscript tamano">Carlos Silvestri, </span><span class="centrar">desarrollador:  </span></h3>
+                </div>
+
+
+                <div class="contenedor-texto">
+                    <h4>
+                        <h3 class="typewrite centrar tamano2 white-text" data-period="2000" data-type='[ "Web", "Android", "y de Aplicaciones de Escritorio." ]'>
+                            <span class="wrap"></span>
+                        </h3>
+                    </h4>
+
+                </div>
+            </div>
+        </header>
+        <!-- FIN DEL HEADER -->
+
+        <section class="main">
+            <!--PUSHPIN-->
+            <div class="borde-de-la-barra pushpin-nav z-index hide" id="barra">
+                <div class="contenedor">
+                    <div class="barra">
+                        <div class="icono-movil">
+                            <a href="#" class="sidenav-trigger" data-target="menu-side">
+                                <i class="icono-barra pointer fa fa-bars"></i>
+                            </a>
+                            <ul class="sidenav" id="menu-side">
+                                <li>
+                                    <div class="user-view">
+                                        <div class="background">
+                                            <img src="img/bg_compum.jpg" alt="Fondo">
+
+                                        </div>
+                                        <i class="iconoDeCerrar medium material-icons sidenav-close">close</i>
+                                        <a href="acerca-de.html">
+                                            <img src="img/Foto_mia.jpg" alt="alt" class="circle">
+                                        </a>
+                                        <a href="acerca-de.html">
+                                            <span class="white-text oswald-bold">Carlos Silvestri</span>
+                                        </a>
+                                        <a href="contacto.html">
+                                            <span class="email white-text open-sans-light">carlossilvestri9@gmail.com</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="index.html" class="OpenSans-Regular" id="btn-acerca-de2"><i class="small material-icons black-text">home</i>Inicio </a>
+                                </li>
+                                <div class="divider"></div>
+                                <li>
+                                    <a href="acerca-de.html" class="OpenSans-Regular" id="btn-acerca-de2"><i class="small material-icons black-text">person</i>Acerca de </a>
+                                </li>
+                                <div class="divider"></div>
+                                <li>
+                                    <a href="trabajos.html" class="OpenSans-Regular" id="btn-paginas-web2"><i class="small material-icons blue-text">format_paint</i>Trabajos </a>
+                                </li>
+                                <div class="divider"></div>
+                                <li>
+                                    <a href="contacto.html" class="OpenSans-Regular" id="btn-contacto2"><i class="small material-icons purple-text">perm_contact_calendar</i>Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu-barra">
+                            <a href="acerca-de.html" class="contenido-barra">Acerca de </a>
+                            <a href="trabajos.html" class="contenido-barra" id="btn-trabajos">Trabajos </a>
+                            <a href="contacto.html" class="contenido-barra" id="btn-contacto">Contacto</a>
+                        </div>
+                        <a href="/" class="mi-portafolio oswald-bold">Mis proyectos</a>
+                    </div>
+                </div>
+            </div>
+            <!--fin del pushpin-->
+        </section>
+        <!-- Seccion Main -->
+    </div>
+    <!-- Practicamente Todo -->
+
+    <!-- Swiper -->
+    <div class="diferenciador">
+        <div class="main">
+            <!-- SOBRE MI -->
+            <section class="bg-white" id="">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Sobre mí</h2>
+                        <p>Amante de la tecnología, los idiomas, los deportes y de las series en Netflix. Apasionado por la programación, estudiante de ingeniería en informática de los últimos trimestres.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4" data-aos="fade-right">
+                            <img src="img/Foto_mia.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col s12 l8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                            <h3 class="text-center">Desarrollador Web FullStack, Móvil Android y de Aplicaciones de Escritorio.</h3>
+                            <p class="font-italic mb-3">
+                                Autodidacta, trabajador, responsable, trabajo en equipo, experiencia como líder de proyectos informáticos.
+                            </p>
+                            <div class="row">
+                                <div class="col l6">
+                                    <ul>
+                                        <li><i class="icofont-rounded-right"></i> <strong>Nacimiento: </strong> 20 de enero de 1999</li>
+                                        <li><i class="icofont-rounded-right"></i> <strong>Website: </strong> https://github.com/carlossilvestri?tab=repositories</li>
+                                        <li><i class="icofont-rounded-right"></i> <strong>Tlf: </strong> +58 4149616206</li>
+                                        <li><i class="icofont-rounded-right"></i> <strong>Ciudad: </strong> Maracaibo, Venezuela</li>
+                                    </ul>
+                                </div>
+                                <div class="col l6">
+                                    <ul>
+                                        <li><i class="icofont-rounded-right"></i> <strong>Edad: </strong>21</li>
+                                        <li><i class="icofont-rounded-right"></i> <strong>Grado: </strong> Pregrado</li>
+                                        <li><i class="icofont-rounded-right"></i> <strong>Email: </strong> carlossilvestri9@gmail.com</li>
+                                        <li><i class="icofont-rounded-right"></i> <strong>Para trabajar: </strong> Disponible</li>
+                                        <li><i class="icofont-rounded-right"></i> <strong>Nacionalidad: </strong> Venezolana e Italina</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <p>
+                                Me considero una persona muy trabajadora, responsable, atenta a los detalles y muy perfeccionista. Me gusta aprender nuevas tecnologías y ser líder. Hablo inglés, italiano y español. Conozco muchos lenguajes de programación, los que más me gustan son
+                                JavaScript, PHP, Kotlin y Java.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Swipers pag, aplicaciones de escritorio -->
+            <div class="contenedor2">
+                <div class="trabajos">
+                    <h2 class="titulo t1" id="web" data-scroll data-scroll-repeat="true"> Páginas web <br><i class="small material-icons">laptop_mac</i></h2>
+                    <div class="row slider1" data-scroll data-scroll-repeat="true">
+                        <div class="container section">
+                            <div class="swiper-container slider3" data-scroll data-scroll-repeat="true">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="https://controleducs.com/" target="_blank">
+                                            <picture>
+                                                <source media="(max-width: 1000px)" srcset="img/carrusel/small/webMovil1.png">
+                                                <source media="(min-width: 1001px)" srcset="img/carrusel/big/web1.png">
+                                                <img class="responsive-img" src="img/carrusel/big/web1.png" alt="Web">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <picture>
+                                            <source media="(max-width: 1000px)" srcset="img/carrusel/small/webMovil2.png">
+                                            <source media="(min-width: 1001px)" srcset="img/carrusel/big/web2.png">
+                                            <img class="responsive-img" src="img/carrusel/big/web2.png" alt="Web">
+                                        </picture>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="http://danielquinterof.com/LeeyPiensa/" target="_blank">
+                                            <picture>
+                                                <source media="(max-width: 1000px)" srcset="img/carrusel/small/webMovil3.png">
+                                                <source media="(min-width: 1001px)" srcset="img/carrusel/big/web3.png">
+                                                <img class="responsive-img" src="img/carrusel/big/web3.png" alt="Web">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="https://carlossilvestri.github.io/blogdedulces/" target="_blank">
+                                            <picture>
+                                                <source media="(max-width: 1000px)" srcset="img/carrusel/small/webMovil4.png">
+                                                <source media="(min-width: 1001px)" srcset="img/carrusel/big/web4.png">
+                                                <img class="responsive-img" src="img/carrusel/big/web4.png" alt="Web">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="https://carlossilvestri.github.io/criptopage/" target="_blank">
+                                            <picture>
+                                                <source media="(max-width: 1000px)" srcset="img/carrusel/small/webMovil5.png">
+                                                <source media="(min-width: 1001px)" srcset="img/carrusel/big/web5.png">
+                                                <img class="responsive-img" src="img/carrusel/big/web5.png" alt="Web">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="https://carlossilvestri.github.io/restauranteallgrill/" target="_blank">
+                                            <picture>
+                                                <source media="(max-width: 1000px)" srcset="img/carrusel/small/webMovil6.png">
+                                                <source media="(min-width: 1001px)" srcset="img/carrusel/big/web6.png">
+                                                <img class="responsive-img" src="img/carrusel/big/web6.png" alt="Web">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="https://carlossilvestri.github.io/restauranteallgrill/" target="_blank"></a>
+                                        <picture>
+                                            <source media="(max-width: 1000px)" srcset="img/carrusel/small/webMovil7.png">
+                                            <source media="(min-width: 1001px)" srcset="img/carrusel/big/web7.png">
+                                            <img class="responsive-img" src="img/carrusel/big/web7.png" alt="Web">
+                                        </picture>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="https://boring-carson-20c45e.netlify.app" target="_blank">
+                                            <picture>
+                                                <source media="(max-width: 1000px)" srcset="img/carrusel/small/webMovil8.png">
+                                                <source media="(min-width: 1001px)" srcset="img/carrusel/big/web8.png">
+                                                <img class="responsive-img" src="img/carrusel/big/web8.png" alt="Web">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Add Pagination -->
+                                <div class="swiper-pagination"></div>
+                                <!-- Add Arrows -->
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+
+                        </div>
+                        <!-- Container Seccion -->
+                    </div>
+                    <!-- row -->
+                </div>
+                <!-- Android -->
+                <div class="trabajos">
+                    <h2 class="titulo" id="" data-scroll data-scroll-repeat="true">Apps <br> <i class="small material-icons green-text">android</i></h2>
+                    <div class="container section">
+                        <div class="swiper-container slider3" data-scroll data-scroll-repeat="true">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <picture>
+                                        <source media="(max-width: 1000px)" srcset="img/carrusel/small/a1.png">
+                                        <source media="(min-width: 1001px)" srcset="img/carrusel/small/a1.png">
+                                        <img class="responsive-img" src="img/carrusel/small/a1.png" alt="Android proyecto 1">
+                                    </picture>
+                                </div>
+                                <div class="swiper-slide">
+                                    <picture>
+                                        <source media="(max-width: 1000px)" srcset="img/carrusel/small/a2.png">
+                                        <source media="(min-width: 1001px)" srcset="img/carrusel/small/a2.png">
+                                        <img class="responsive-img" src="img/carrusel/small/a2.png" alt="Android proyecto 2">
+                                    </picture>
+                                </div>
+
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                    <!-- Container Seccion -->
+                </div>
+                <!-- Trabajos -->
+                <!-- Trabajos -->
+                <div class="trabajos">
+                    <h2 class="titulo" id="" data-scroll data-scroll-repeat="true">Aplicaciones de Escritorio <br> <i class="small material-icons">desktop_windows</i></h2>
+                    <div class="container section">
+                        <div class="swiper-container slider3" data-scroll data-scroll-repeat="true">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <picture>
+                                        <source media="(max-width: 1000px)" srcset="img/carrusel/small/ds1.png">
+                                        <source media="(min-width: 1001px)" srcset="img/carrusel/big/d1.png">
+                                        <img class="responsive-img" src="img/carrusel/big/d1.png" alt="Web">
+                                    </picture>
+                                </div>
+
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                    <!-- Container Seccion -->
+                </div>
+                <!-- Trabajos -->
+            </div>
+            <!-- contenedor -->
+            <!-- ======= Skills Section ======= -->
+            <section id="skills" class="skills section-bg">
+                <div class="container">
+
+                    <div class="section-title">
+                        <h2>Habilidades</h2>
+                        <p>Aqui podrás ver algunas de mis habilidades, así como su dominio.</p>
+                    </div>
+                    <div class="row skills-content">
+                        <div class="col-lg-6" data-aos="fade-up">
+                            <div class="progress">
+                                <span class="skill">JavaScript <i class="val">95%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">React <i class="val">55%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%;"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">Boostrap <i class="val">90%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">jQuery <i class="val">80%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">CSS <i class="val">95%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">HTML <i class="val">100%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">Adobe Illustrator<i class="val">50%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">Adobe XD <i class="val">80%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+                            <div class="progress">
+                                <span class="skill">PHP <i class="val">90%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="90" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">Node.js <i class="val">85%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">WordPress/CMS <i class="val">85%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">Java <i class="val">95%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">Kotlin <i class="val">90%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">Electron <i class="val">60%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">MySQL y Sqlite<i class="val">90%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">MongoDB<i class="val">60%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+            <!-- End Skills Section -->
+            <!-- ======= Resume Section ======= -->
+            <section id="resume" class="resume">
+                <div class="container">
+
+                    <div class="section-title">
+                        <h2>Resumen</h2>
+                        <p>Aquí podrás encontrar algunos cursos que he realizado.</p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6" data-aos="fade-up">
+                            <h3 class="resume-title">Educación</h3>
+                            <div class="resume-item">
+                                <h4>Estudiante de Ing. Informática</h4>
+                                <h5>2017 - presente</h5>
+                                <p><em>Universidad Rafael Belloso Chacín, Maracaibo, VEN</em></p>
+                            </div>
+                            <div class="resume-item">
+                                <h4>Javascript Moderno Guía Definitiva Construye +15 Proyectos</h4>
+                                <h5>2020</h5>
+                                <p><em>Udemy, Maracaibo, VEN</em></p>
+                            </div>
+                            <div class="resume-item">
+                                <h4>Desarrollo Web Completo con HTML5, CSS3, JS, AJAX PHP y MySQL</h4>
+                                <h5>2019 - 2020</h5>
+                                <p><em>Udemy, Maracaibo, VEN</em></p>
+                            </div>
+                            <div class="resume-item">
+                                <h4>Android y Kotlin Desde Cero a Profesional Completo +45 horas</h4>
+                                <h5>2020</h5>
+                                <p><em>Udemy, Maracaibo, VEN</em></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                            <br>
+                            <div class="resume-item">
+                                <h4>CISCO IT Essentials </h4>
+                                <h5>2019 - 2020</h5>
+                                <p><em>URBE, Maracaibo, VEN</em></p>
+                            </div>
+                            <div class="resume-item">
+                                <h4>Scrum Foundations Professional Certificate (SFPC)</h4>
+                                <h5>2020</h5>
+                                <p><em>CertiProf, Maracaibo, VEN</em></p>
+                            </div>
+                            <div class="resume-item">
+                                <h4>Curso de Italiano Comunicacional</h4>
+                                <h5>2018 - 2019</h5>
+                                <p><em>ALCI, Maracaibo, VEN</em></p>
+                            </div>
+                            <div class="resume-item">
+                                <h4>Inglés para adultos</h4>
+                                <h5>2016 - 2018</h5>
+                                <p><em>CEVAZ, Maracaibo, VEN</em></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12" data-aos="fade-up" data-aos-delay="100">
+                            <h3 class="resume-title">Experiencia Profesional</h3>
+                            <div class="resume-item">
+                                <h4>Programador Web FullStack Independiente</h4>
+                                <h5>2019 - Presente</h5>
+                                <p><em>Maracaibo, Venezuela </em></p>
+                                <ul>
+                                    <li>He hecho muchísimos proyectos de la universidad y páginas web para familiares y amigos.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- End Resume Section -->
+        </div>
+        <!-- Main -->
+    </div>
+    <!-- diferenciador -->
+
+    <footer>
+        <div class="container">
+            <div class="section-title">
+                <h2>Contacto</h2>
+                <p>Puedes escribirme a mi correo: carlossilvestri9@gmail.com y a mi WhatsApp +584149616206.</p>
+            </div>
+            <section class="contacto hide" id="contacto">
+
+            </section>
+        </div>
+
+        <section class="redes-sociales hide" id="redes-sociales">
+            <div class="contenedor">
+                <a target="_blank" href="https://twitter.com/Silvestri_C" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100004958981799" class="facebook"><i
+                        class="fab fa-facebook"></i></a>
+                <a target="_blank" href="https://github.com/carlossilvestri?tab=repositories" class="github"><i class="fab fa-github"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/carlos-silvestri-20b934117/" class="instagram"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            </div>
+        </section>
+
+
+    </footer>
+    <canvas id="bubble"></canvas>
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha512-bnIvzh6FU75ZKxp0GXLH9bewza/OIw6dLVh9ICg0gogclmYGguQJWl8U30WpbsGTqbIiAwxTsbe76DErLq5EDQ==" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a602e044b9.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/efectoBarra.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/scrollEffect.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/counterup.min.js"></script>
+    <script src="js/swiped-events.js"></script>
+    <script src="js/main2.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Initialize Swiper -->
+    <script src="js/swiperPersonalizado.js"></script>
+    <script src="js/swiped-events.js"></script>
+</body>
+
+
+</html>
