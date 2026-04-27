@@ -75,6 +75,11 @@ body {
     width: 90%;
     margin: auto;
 }
+@media screen and (min-width: 1000px) {
+    .contenedor2 {
+        height: 750px;
+    }
+}
 
 .tamano {
     font-size: 32px !important;

@@ -6,13 +6,14 @@
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background: #f2f2f2;
 }
 
 .swiper-container .swiper-slide {
-    height: 500px;
+    height: 700px;
     width: auto;
     background-color: #f2f2f2;
+    padding: 10px;
 }
 
 @media (max-width: 400px) {
@@ -35,5 +36,316 @@
 @media (min-width: 1200px) {
     .swiper-container .swiper-slide {
         height: 500px;
+    }
+}
+
+/* Mobile responsive fixes for swiper images */
+@media (max-width: 1000px) {
+    .swiper-slide img,
+    .swiper-slide picture {
+        max-width: 100% !important;
+        height: auto !important;
+        object-fit: contain;
+    }
+    
+    .swiper-container .swiper-slide {
+        height: auto;
+        min-height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .swiper-slide picture {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .swiper-slide picture img {
+        max-width: 100%;
+        max-height: 400px;
+        width: auto !important;
+        height: auto !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .swiper-container .swiper-slide {
+        min-height: 250px;
+    }
+    
+    .swiper-slide picture img {
+        max-height: 300px;
+    }
+}
+
+/* Estilos para títulos y descripciones del carrusel */
+.swiper-slide-content {
+    text-align: center;
+    padding: 20px 15px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px;
+}
+
+.swiper-slide-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+.swiper-slide-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.swiper-slide-description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #f8f9fa;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.swiper-slide-link {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    margin-top: auto;
+}
+
+.swiper-slide-link:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.05);
+    color: #ffffff;
+}
+
+.swiper-slide-image-container {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    max-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+}
+
+.swiper-slide-image-container img {
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.swiper-slide-image-container:hover img {
+    transform: scale(1.05);
+}
+
+/* Responsive para títulos y descripciones */
+@media (max-width: 1000px) {
+    .swiper-slide-content {
+        min-height: 350px;
+        padding: 15px 10px;
+    }
+    
+    .swiper-slide-title {
+        font-size: 20px;
+    }
+    
+    .swiper-slide-description {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    .swiper-slide-content {
+        min-height: 300px;
+        padding: 12px 8px;
+    }
+    
+    .swiper-slide-title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .swiper-slide-description {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    
+    .swiper-slide-link {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+/* Estilos para descripciones simples en slides */
+.swiper-slide-simple-content {
+    text-align: center;
+    padding: 20px 15px;
+    /*height: 100%;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.swiper-slide-simple-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.swiper-slide-simple-description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 15px;
+    flex-grow: 1;
+}
+
+.swiper-slide-simple-link {
+    display: inline-block;
+    background: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+    margin-top: auto;
+}
+
+.swiper-slide-simple-link:hover {
+    background: #0056b3;
+    color: #ffffff;
+}
+
+/* Responsive para descripciones simples */
+@media (max-width: 1000px) {
+    .swiper-slide-simple-content {
+        padding: 15px 10px;
+    }
+    
+    .swiper-slide-simple-title {
+        font-size: 18px;
+    }
+    
+    .swiper-slide-simple-description {
+        font-size: 13px;
+    }
+    
+    .swiper-slide-simple-link {
+        padding: 6px 15px;
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .swiper-slide-simple-content {
+        padding: 12px 8px;
+    }
+    
+    .swiper-slide-simple-title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .swiper-slide-simple-description {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+    
+    .swiper-slide-simple-link {
+        padding: 6px 15px;
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+}
+
+/* Ajustar posición de la paginación del carrusel */
+.swiper-pagination {
+    bottom: 40px !important;
+    z-index: 10;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 5px;
+}
+
+.swiper-pagination-bullet {
+    background: #666 !important;
+    opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+    background: #007bff !important;
+    opacity: 1;
+}
+
+/* Ajustar posición de paginación para desktop */
+@media (min-width: 1000px) {
+    .swiper-pagination {
+        bottom: 50px !important;
+    }
+    
+    .swiper-slide-simple-link {
+        margin-bottom: 70px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .swiper-pagination {
+        bottom: -105px !important;
+    }
+    
+    .swiper-slide-simple-link {
+        margin-bottom: 80px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .swiper-pagination {
+        bottom: -112px !important;
+    }
+    
+    .swiper-slide-simple-link {
+        margin-bottom: 90px;
+    }
+}
+
+/* Ajustar posición de paginación en móvil */
+@media (max-width: 600px) {
+    .swiper-pagination {
+        bottom: 15px !important;
+    }
+    
+    .swiper-slide-simple-link {
+        margin-bottom: 50px;
     }
 }
