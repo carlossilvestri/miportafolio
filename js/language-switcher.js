@@ -185,7 +185,7 @@ const translations = {
     "phone-value": "+58 4149616206",
     "city-value": "Maracaibo, Venezuela",
     "email-value": "carlossilvestri9@gmail.com",
-    "available-value": "Available",
+    "available-value": "Working remotely",
     "nationality-value": "Venezuelan and Italian",
 
     // About paragraph
