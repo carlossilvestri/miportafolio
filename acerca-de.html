@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/prueba.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/acerca-de.css">
+    <link rel="stylesheet" href="css/language-selector.css">
 </head>
 
 <body>
@@ -73,13 +74,17 @@
                 </div>
             </div>
         </div>
-        <p class="mi-portafolio oswald-bold">Mis Proyectos</p>
+        <p class="mi-portafolio oswald-bold" data-translate="my-projects">Mis Proyectos</p>
     </div>
     <!-- FIN DEL PRELOADER-->
     <div class="hide" id="practicamente-todo">
         <header>
             <div class="contenedor">
                 <nav class="redes-en-el-header centrar">
+                    <div class="language-selector">
+                        <button class="lang-btn active" data-lang="es">ES</button>
+                        <button class="lang-btn" data-lang="en">EN</button>
+                    </div>
                     <a target="_blank" href="https://twitter.com/Silvestri_C"><i class="twitter fab fa-twitter"></i></a>
                     <a target="_blank" href="https://www.facebook.com/profile.php?id=100004958981799"><i
                             class="facebook fab fa-facebook"></i></a>
@@ -90,17 +95,19 @@
                 </nav>
                 <div class="informacion-evento">
                     <div class="clearfix informacion">
-                        <p class="fecha" id="fecha"><i class="naranja icono fa fa-calendar"></i> 10-12 AGOSTO</p>
-                        <p class="ciudad" id="ciudad"><i class="naranja icono  fa fa-map-marker"></i> ZULIA, VEN.</p>
+                        <p class="fecha" id="fecha"><i class="naranja icono fa fa-calendar"></i> <span
+                                data-translate="event-date"></span></p>
+                        <p class="ciudad" id="ciudad"><i class="naranja icono  fa fa-map-marker"></i> <span
+                                data-translate="event-city">ZULIA, VEN.</span></p>
                     </div>
                 </div>
                 <!--Información evento-->
                 <a href="/miportafolio/index.html">
-                    <h1 class="yop" id="apellido">Mis Proyectos</h2>
+                    <h1 class="yop" id="apellido" data-translate="my-projects">Mis Proyectos</h1>
                 </a>
                 <div class="contenedor-texto">
                     <h3 class="developer centrar"> <span class="centrar dancingscript tamano">Carlos Silvestri,
-                        </span><span class="centrar">desarrollador: </span></h3>
+                        </span><span class="centrar" data-translate="developer">desarrollador: </span></h3>
                 </div>
 
 
@@ -148,31 +155,38 @@
                                 </li>
                                 <li>
                                     <a href="index.html" class="OpenSans-Regular" id="btn-acerca-de2"><i
-                                            class="small material-icons black-text">home</i>Inicio </a>
+                                            class="small material-icons black-text">home</i><span
+                                            data-translate="nav-home">Inicio</span> </a>
                                 </li>
                                 <div class="divider"></div>
                                 <li>
                                     <a href="acerca-de.html" class="OpenSans-Regular" id="btn-acerca-de2"><i
-                                            class="small material-icons black-text">person</i>Acerca de </a>
+                                            class="small material-icons black-text">person</i><span
+                                            data-translate="nav-about">Acerca de</span> </a>
                                 </li>
                                 <div class="divider"></div>
                                 <li>
                                     <a href="trabajos.html" class="OpenSans-Regular" id="btn-paginas-web2"><i
-                                            class="small material-icons blue-text">format_paint</i>Trabajos </a>
+                                            class="small material-icons blue-text">format_paint</i><span
+                                            data-translate="nav-projects">Trabajos</span> </a>
                                 </li>
                                 <div class="divider"></div>
                                 <li>
                                     <a href="contacto.html" class="OpenSans-Regular" id="btn-contacto2"><i
-                                            class="small material-icons purple-text">perm_contact_calendar</i>Contacto</a>
+                                            class="small material-icons purple-text">perm_contact_calendar</i><span
+                                            data-translate="nav-contact">Contacto</span></a>
                                 </li>
                             </ul>
                         </div>
                         <div class="menu-barra">
-                            <a href="acerca-de.html" class="contenido-barra">Acerca de </a>
-                            <a href="trabajos.html" class="contenido-barra" id="btn-trabajos">Trabajos </a>
-                            <a href="contacto.html" class="contenido-barra" id="btn-contacto">Contacto</a>
+                            <a href="acerca-de.html" class="contenido-barra" data-translate="nav-about">Acerca de </a>
+                            <a href="trabajos.html" class="contenido-barra" id="btn-trabajos"
+                                data-translate="nav-projects">Trabajos </a>
+                            <a href="contacto.html" class="contenido-barra" id="btn-contacto"
+                                data-translate="nav-contact">Contacto</a>
                         </div>
-                        <a href="/miportafolio/index.html" class="mi-portafolio oswald-bold">Mis proyectos</a>
+                        <a href="/miportafolio/index.html" class="mi-portafolio oswald-bold"
+                            data-translate="my-projects">Mis proyectos</a>
                     </div>
                 </div>
             </div>
@@ -195,51 +209,51 @@
                     <div class="unir2">
                         <div class="separacion">
                             <div class="titulo-acerca-de">
-                                <h3 class="mayuscula titulo-acerca-de-sin-div">Acerca de</h3>
+                                <h3 class="mayuscula titulo-acerca-de-sin-div" data-translate="about-page-title">Acerca de</h3>
                             </div>
                             <div class="div-subtitulo-acerca-de">
-                                <h4 class="mayuscula subtitulo-acerca-de"> Ingeniero en Informática, Desarrollador
+                                <h4 class="mayuscula subtitulo-acerca-de" data-translate="about-page-subtitle"> Ingeniero en Informática, Desarrollador
                                     Fullstack</h4>
                             </div>
                             <div class="texto borde-acerca-de">
 
-                                <p> ¡En el mundo de la tecnología siempre habrá algo nuevo que aprender! Razón por la
+                                <p data-translate="about-p1"> ¡En el mundo de la tecnología siempre habrá algo nuevo que aprender! Razón por la
                                     cual hay que estar constantemente actualizados. </p>
-                                <p>Mi nombre es <strong class="negrita">Carlos Silvestri</strong>. Soy Ing. Informático
+                                <p data-translate="about-p2-html" data-translate-html>Mi nombre es <strong class="negrita">Carlos Silvestri</strong>. Soy Ing. Informático
                                     graduado en <a target="_blank" href="https://www.urbe.edu/"
                                         class="blue-text">URBE</a></p>
-                                <p>Tengo conocimientos en:</p>
-                                <p>
+                                <p data-translate="about-p3">Tengo conocimientos en:</p>
+                                <p data-translate="about-p4">
                                     -
                                     Backend: Java, Spring boot. Nodejs, Nestjs, Express. PHP, Laravel.
                                     -
                                 </p>
-                                <p>
+                                <p data-translate="about-p5">
                                     Frontend: Vue, (Pinia, Vuex, Vuetify, Nuxt), React, Angular, SCSS, JavaScript
                                     Vanilla, jQuery, Ajax, WordPress, Bootstrap, TailwindCSS, HTML5, CSS3.
                                     -
                                 </p>
-                                <p>
+                                <p data-translate="about-p6">
                                     Aplicaciones de Escritorio: Java Swing.
                                     -
                                 </p>
-                                <p>
+                                <p data-translate="about-p7">
                                     Bases de datos: MySQL, SQLite, MongoDB, PostgreSQL.
                                 </p>
-                                <p>
+                                <p data-translate="about-p8">
                                     -
                                     Otros: Adobe XD, Figma, Word, PowerPoint.</p>
-                                <p class="justificado">Idiomas: Inglés, italiano y español. Desde pequeño siempre me ha
+                                <p class="justificado" data-translate="about-p9">Idiomas: Inglés, italiano y español. Desde pequeño siempre me ha
                                     llamado la atención cómo la tecnología en tan poco tiempo pudo evolucionar y cambiar
                                     tan rápidamente, desde que los teléfonos parecían un zapato hasta que
                                     se convirtieron en un instrumento que utilizamos para prácticamente todo. ¡Quiero
                                     poner mi granito de arena para hacer de las cosas mucho más fáciles y eficientes!
                                 </p>
-                                <p class="black-text">¡Te invito a ver mis proyectos! </p>
-                                <p>Si te gustaron y tienes el tuyo en mente, puedes contactarme, será un placer ayudarte
+                                <p class="black-text" data-translate="about-p10">¡Te invito a ver mis proyectos! </p>
+                                <p data-translate="about-p11">Si te gustaron y tienes el tuyo en mente, puedes contactarme, será un placer ayudarte
                                     a cumplir una meta más. </p>
 
-                                <p>Si eres una empresa, te invito a contactarme para enviarte más detalles sobre mí.</p>
+                                <p data-translate="about-p12">Si eres una empresa, te invito a contactarme para enviarte más detalles sobre mí.</p>
                             </div>
                         </div>
                     </div>
@@ -255,7 +269,8 @@
                             <h3 class="titulo"><i class="large green-text fab fa-whatsapp"></i></h3>
                             <form class="formulario">
 
-                                <input class="boton" type="submit" value="Contáctame" id="send_message">
+                                <input class="boton" type="submit" value="Contáctame" id="send_message"
+                                    data-translate="contact-me-btn">
                             </form>
                         </div>
                     </section>
@@ -284,7 +299,6 @@
 <script src="js/efectoBarra.js"></script>
 <script src="js/main.js"></script>
 <script src="js/swiped-events.js"></script>
-
-
+<script src="js/language-switcher.js"></script>
 
 </html>

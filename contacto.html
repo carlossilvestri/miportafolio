@@ -19,8 +19,7 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/swiperPersonalizado.css">
-
-
+    <link rel="stylesheet" href="css/language-selector.css">
 
 </head>
 
@@ -77,13 +76,17 @@
                 </div>
             </div>
         </div>
-        <p class="mi-portafolio oswald-bold">Mis Proyectos</p>
+        <p class="mi-portafolio oswald-bold" data-translate="my-projects">Mis Proyectos</p>
     </div>
     <!-- FIN DEL PRELOADER-->
     <div class="hide" id="practicamente-todo">
         <header>
             <div class="contenedor">
                 <nav class="redes-en-el-header centrar">
+                    <div class="language-selector">
+                        <button class="lang-btn active" data-lang="es">ES</button>
+                        <button class="lang-btn" data-lang="en">EN</button>
+                    </div>
                     <a target="_blank" href="https://twitter.com/Silvestri_C"><i class="twitter fab fa-twitter"></i></a>
                     <a target="_blank" href="https://www.facebook.com/profile.php?id=100004958981799"><i
                             class="facebook fab fa-facebook"></i></a>
@@ -94,17 +97,19 @@
                 </nav>
                 <div class="informacion-evento">
                     <div class="clearfix informacion">
-                        <p class="fecha" id="fecha"><i class="naranja icono fa fa-calendar"></i> 10-12 AGOSTO</p>
-                        <p class="ciudad" id="ciudad"><i class="naranja icono  fa fa-map-marker"></i> ZULIA, VEN.</p>
+                        <p class="fecha" id="fecha"><i class="naranja icono fa fa-calendar"></i> <span
+                                data-translate="event-date"></span></p>
+                        <p class="ciudad" id="ciudad"><i class="naranja icono  fa fa-map-marker"></i> <span
+                                data-translate="event-city">ZULIA, VEN.</span></p>
                     </div>
                 </div>
                 <!--Información evento-->
                 <a href="/miportafolio/index.html">
-                    <h1 class="yop" id="apellido">Mis Proyectos</h2>
+                    <h1 class="yop" id="apellido" data-translate="my-projects">Mis Proyectos</h1>
                 </a>
                 <div class="contenedor-texto">
                     <h3 class="developer centrar"> <span class="centrar dancingscript tamano">Carlos Silvestri,
-                        </span><span class="centrar">desarrollador: </span></h3>
+                        </span><span class="centrar" data-translate="developer">desarrollador: </span></h3>
                 </div>
 
 
@@ -152,31 +157,38 @@
                                 </li>
                                 <li>
                                     <a href="index.html" class="OpenSans-Regular" id="btn-acerca-de2"><i
-                                            class="small material-icons black-text">home</i>Inicio </a>
+                                            class="small material-icons black-text">home</i><span
+                                            data-translate="nav-home">Inicio</span> </a>
                                 </li>
                                 <div class="divider"></div>
                                 <li>
                                     <a href="acerca-de.html" class="OpenSans-Regular" id="btn-acerca-de2"><i
-                                            class="small material-icons black-text">person</i>Acerca de </a>
+                                            class="small material-icons black-text">person</i><span
+                                            data-translate="nav-about">Acerca de</span> </a>
                                 </li>
                                 <div class="divider"></div>
                                 <li>
                                     <a href="trabajos.html" class="OpenSans-Regular" id="btn-paginas-web2"><i
-                                            class="small material-icons blue-text">format_paint</i>Trabajos </a>
+                                            class="small material-icons blue-text">format_paint</i><span
+                                            data-translate="nav-projects">Trabajos</span> </a>
                                 </li>
                                 <div class="divider"></div>
                                 <li>
                                     <a href="contacto.html" class="OpenSans-Regular" id="btn-contacto2"><i
-                                            class="small material-icons purple-text">perm_contact_calendar</i>Contacto</a>
+                                            class="small material-icons purple-text">perm_contact_calendar</i><span
+                                            data-translate="nav-contact">Contacto</span></a>
                                 </li>
                             </ul>
                         </div>
                         <div class="menu-barra">
-                            <a href="acerca-de.html" class="contenido-barra">Acerca de </a>
-                            <a href="trabajos.html" class="contenido-barra" id="btn-trabajos">Trabajos </a>
-                            <a href="contacto.html" class="contenido-barra" id="btn-contacto">Contacto</a>
+                            <a href="acerca-de.html" class="contenido-barra" data-translate="nav-about">Acerca de </a>
+                            <a href="trabajos.html" class="contenido-barra" id="btn-trabajos"
+                                data-translate="nav-projects">Trabajos </a>
+                            <a href="contacto.html" class="contenido-barra" id="btn-contacto"
+                                data-translate="nav-contact">Contacto</a>
                         </div>
-                        <a href="/miportafolio/index.html" class="mi-portafolio oswald-bold">Mis proyectos</a>
+                        <a href="/miportafolio/index.html" class="mi-portafolio oswald-bold"
+                            data-translate="my-projects">Mis proyectos</a>
                     </div>
                 </div>
             </div>
@@ -187,18 +199,19 @@
     <!-- Practicamente Todo -->
     <section class="mapa centrar ">
         <div class="trabajos">
-            <h2 class="titulo t1 " id="web" data-scroll data-scroll-repeat="true">Contacto <br> <i
-                    class="small blue-text fas fa-id-card-alt"></i> <br></h3>
+            <h2 class="titulo t1 " id="web" data-scroll data-scroll-repeat="true"><span
+                    data-translate="contact-page-heading">Contacto</span> <br> <i
+                    class="small blue-text fas fa-id-card-alt"></i> <br></h2>
                 <br>
 
-                <h3 class="titulo">Mapa</h3>
+                <h3 class="titulo" data-translate="map-title">Mapa</h3>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d490.11867100726226!2d-71.63180500586358!3d10.661038145877484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sve!4v1579025393996!5m2!1ses-419!2sve"
                     width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                <h3 class="text-center">Correo:</h3>
+                <h3 class="text-center" data-translate="email-heading">Correo:</h3>
                 <p>carlossilvestri9@gmail.com</p>
                 <p>carlosarmando99@hotmail.com</p>
-                <h3 class="text-center">Télefono:</h3>
+                <h3 class="text-center" data-translate="phone-heading">Télefono:</h3>
                 <p>+58 4149616206</p>
         </div>
 
@@ -210,7 +223,8 @@
                 <h3 class="titulo"><i class="large green-text fab fa-whatsapp"></i></h3>
                 <form class="formulario">
 
-                    <input class="boton" type="submit" value="Contáctame" id="send_message">
+                    <input class="boton" type="submit" value="Contáctame" id="send_message"
+                        data-translate="contact-me-btn">
                 </form>
             </div>
         </section>
@@ -245,5 +259,6 @@
 <!-- Initialize Swiper -->
 <script src="js/swiperPersonalizado.js"></script>
 <script src="js/swiped-events.js"></script>
+<script src="js/language-switcher.js"></script>
 
 </html>

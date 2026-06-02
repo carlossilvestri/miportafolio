@@ -88,6 +88,9 @@ const translations = {
     "visit-project": "Visitar Proyecto",
 
     // Project translations
+    "project-kolibit-title": "Kolibit",
+    "project-kolibit-desc":
+      "Consultora de Tecnologías de la Información 100% mexicana, con desarrollo de soluciones a medida, soporte técnico.",
     "project-tusoluteca-title": "Tusoluteca",
     "project-tusoluteca-desc":
       "Encuentra el servicio perfecto para tus necesidades, sin complicaciones.",
@@ -131,6 +134,7 @@ const translations = {
     "education-university": "Universidad Rafael Belloso Chacín, Maracaibo, VEN",
 
     // Courses
+    "course-react": "React PRO: Lleva tus bases al siguiente nivel",
     "course-angular": "Angular: De cero a experto (Angular 10+)",
     "course-nodejs": "Node.js - Bootcamp Desarrollo Web inc. MVC y REST APIs",
     "course-vue": "Vue JS - Aprende a Crear Aplicaciones Web Modernas con Vue",
@@ -153,6 +157,38 @@ const translations = {
     "contact-title": "Contacto",
     "contact-description":
       "Puedes escribirme a mi correo: carlossilvestri9@gmail.com y a mi WhatsApp +584149616206.",
+
+    // About page (acerca-de.html)
+    "about-page-title": "Acerca de",
+    "about-page-subtitle":
+      "Ingeniero en Informática, Desarrollador Fullstack",
+    "about-p1":
+      "¡En el mundo de la tecnología siempre habrá algo nuevo que aprender! Razón por la cual hay que estar constantemente actualizados.",
+    "about-p2-html":
+      'Mi nombre es <strong class="negrita">Carlos Silvestri</strong>. Soy Ing. Informático graduado en <a target="_blank" href="https://www.urbe.edu/" class="blue-text">URBE</a>',
+    "about-p3": "Tengo conocimientos en:",
+    "about-p4":
+      "- Backend: Java, Spring boot. Nodejs, Nestjs, Express. PHP, Laravel. -",
+    "about-p5":
+      "- Frontend: Vue, (Pinia, Vuex, Vuetify, Nuxt), React, Angular, SCSS, JavaScript Vanilla, jQuery, Ajax, WordPress, Bootstrap, TailwindCSS, HTML5, CSS3. -",
+    "about-p6": "- Aplicaciones de Escritorio: Java Swing. -",
+    "about-p7":
+      "- Bases de datos: MySQL, SQLite, MongoDB, PostgreSQL.",
+    "about-p8": "- Otros: Adobe XD, Figma, Word, PowerPoint.",
+    "about-p9":
+      "Idiomas: Inglés, italiano y español. Desde pequeño siempre me ha llamado la atención cómo la tecnología en tan poco tiempo pudo evolucionar y cambiar tan rápidamente, desde que los teléfonos parecían un zapato hasta que se convirtieron en un instrumento que utilizamos para prácticamente todo. ¡Quiero poner mi granito de arena para hacer de las cosas mucho más fáciles y eficientes!",
+    "about-p10": "¡Te invito a ver mis proyectos!",
+    "about-p11":
+      "Si te gustaron y tienes el tuyo en mente, puedes contactarme, será un placer ayudarte a cumplir una meta más.",
+    "about-p12":
+      "Si eres una empresa, te invito a contactarme para enviarte más detalles sobre mí.",
+
+    // Contact page (contacto.html)
+    "contact-page-heading": "Contacto",
+    "map-title": "Mapa",
+    "email-heading": "Correo:",
+    "phone-heading": "Télefono:",
+    "contact-me-btn": "Contáctame",
   },
   en: {
     // Navigation and header
@@ -200,6 +236,9 @@ const translations = {
     "visit-project": "Visit Project",
 
     // Project translations
+    "project-kolibit-title": "Kolibit",
+    "project-kolibit-desc":
+      "100% Mexican Information Technology Consulting, with development of custom solutions and technical support.",
     "project-tusoluteca-title": "Tusoluteca",
     "project-tusoluteca-desc":
       "Find the perfect service for your needs, without complications.",
@@ -242,6 +281,7 @@ const translations = {
     "education-university": "Rafael Belloso Chacín University, Maracaibo, VEN",
 
     // Courses
+    "course-react": "React PRO: Take your foundations to the next level",
     "course-angular": "Angular: From Zero to Expert (Angular 10+)",
     "course-nodejs":
       "Node.js - Web Development Bootcamp inc. MVC and REST APIs",
@@ -265,6 +305,36 @@ const translations = {
     "contact-title": "Contact",
     "contact-description":
       "You can write to my email: carlossilvestri9@gmail.com and my WhatsApp +584149616206.",
+
+    // About page (acerca-de.html)
+    "about-page-title": "About",
+    "about-page-subtitle": "Computer Engineer, Fullstack Developer",
+    "about-p1":
+      "In the world of technology there will always be something new to learn! That's why you have to stay constantly updated.",
+    "about-p2-html":
+      'My name is <strong class="negrita">Carlos Silvestri</strong>. I am a Computer Engineer graduated from <a target="_blank" href="https://www.urbe.edu/" class="blue-text">URBE</a>',
+    "about-p3": "I have knowledge in:",
+    "about-p4":
+      "- Backend: Java, Spring boot. Nodejs, Nestjs, Express. PHP, Laravel. -",
+    "about-p5":
+      "- Frontend: Vue, (Pinia, Vuex, Vuetify, Nuxt), React, Angular, SCSS, JavaScript Vanilla, jQuery, Ajax, WordPress, Bootstrap, TailwindCSS, HTML5, CSS3. -",
+    "about-p6": "- Desktop Applications: Java Swing. -",
+    "about-p7": "- Databases: MySQL, SQLite, MongoDB, PostgreSQL.",
+    "about-p8": "- Other: Adobe XD, Figma, Word, PowerPoint.",
+    "about-p9":
+      "Languages: English, Italian and Spanish. Since I was little I have always been fascinated by how technology evolved and changed so quickly in such a short time, from when phones looked like a shoe to when they became a tool we use for practically everything. I want to do my part to make things much easier and more efficient!",
+    "about-p10": "I invite you to see my projects!",
+    "about-p11":
+      "If you liked them and have yours in mind, you can contact me, it will be a pleasure to help you achieve another goal.",
+    "about-p12":
+      "If you are a company, I invite you to contact me to send you more details about me.",
+
+    // Contact page (contacto.html)
+    "contact-page-heading": "Contact",
+    "map-title": "Map",
+    "email-heading": "Email:",
+    "phone-heading": "Phone:",
+    "contact-me-btn": "Contact me",
   },
 };
 
@@ -291,9 +361,8 @@ function initLanguageSwitcher() {
 function setLanguage(lang) {
   // Update active button
   document.querySelectorAll(".lang-btn").forEach((btn) => {
-    btn.classList.remove("active");
+    btn.classList.toggle("active", btn.getAttribute("data-lang") === lang);
   });
-  document.querySelector(`[data-lang="${lang}"]`).classList.add("active");
 
   // Update HTML lang attribute
   document.documentElement.lang = lang;
@@ -310,7 +379,17 @@ function updateTranslations(lang) {
     if (key === "event-date") {
       element.textContent = getEventDate(lang);
     } else if (translations[lang][key]) {
-      element.textContent = translations[lang][key];
+      const value = translations[lang][key];
+      if (element.hasAttribute("data-translate-html")) {
+        element.innerHTML = value;
+      } else if (
+        element instanceof HTMLInputElement &&
+        (element.type === "submit" || element.type === "button")
+      ) {
+        element.value = value;
+      } else {
+        element.textContent = value;
+      }
     }
   });
 
